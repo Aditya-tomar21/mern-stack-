@@ -1,0 +1,27 @@
+#cars
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+#cars th,#cars td {
+    border: 2px solid papayawhip;
+    padding: 8px;
+}
+#cars tr:nth-child(even)
+{
+    background-color: rgb(141, 173, 233);
+
+}
+#cars th{
+    padding: 15px;
+    background-color: rgb(7, 87, 158);
+    color: antiquewhite;
+    text-align: left;
+    
+}
+#cars tr :hover{
+    background-color: rgb(122, 150, 183);
+
+    transition:0.3s ease-in-out;
+    
+} 
