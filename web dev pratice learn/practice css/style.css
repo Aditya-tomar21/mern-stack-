@@ -1,0 +1,60 @@
+*{
+    margin: 20px;
+}
+
+div{
+    border: 1px solid black;
+    
+}
+.exe1 p,
+.exe1 h1{
+    color: red;
+}
+input[type=text]{
+    border: 3px solid blue;
+    min-width: 90%;
+    max-width: 90%;
+}
+
+.exe2 h1{
+    padding: 40px 10px;
+}
+
+.exe2 section{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.exe2 article{
+    padding: 10%;
+    background-color: #f0f0f0;
+}
+
+.exe3 {
+    display: none;
+    padding: 5%;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin:0px 10px;
+}
+
+a{
+    text-decoration: none;
+    padding:5px 30px;
+    border-radius: 5px;
+    background-color: rgb(113, 112, 112);
+    color: whitesmoke;
+}
+a:hover{
+    background-color:rgb(238, 235, 235);
+    color:  rgb(52, 51, 51);
+}
+
+.nav ul{
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
