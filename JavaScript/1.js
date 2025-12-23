@@ -1,4 +1,4 @@
-//----------------------------------------         "let" & "const" are block scoped and should be used more 
+//--------------         "let" & "const" are block scoped and should be used more 
 // ---------------      module1 -  JS variables
 /*
 let a = 8;
@@ -17,10 +17,7 @@ console.log(val)
 
 
 
-
-
-
-//----------------------------------------------------  Module2 - JS operators  ------------------------------------->
+//--------------------  Module2 - JS operators  ------------------------>
 // EX:1,  pg-18
 
 /* let item1 = 500;
@@ -41,9 +38,7 @@ Price>=500?(console.log("final pay",` ${Price}`) ) : (console.log("Final pay" , 
 */
 
 
-
-
-//----------------------------------------------------    data types  ------------------------------------->
+//-----------------------------    data types  -   ------------>
 // Ex:2 , pg-25
 
 // ---------------- NON Primitive data type - og change hoga 
