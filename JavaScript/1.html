@@ -1,0 +1,32 @@
+<!-- EX:3 , pg-30 , JS_01 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password attempt</title>
+</head>
+<body>
+    <form>
+        <label >password:</label>
+        <input id="password" type="password" placeholder="enter the password">
+        <button onclick="checkpassword()">enter</button>
+        <p>3 attempts allowed</p>
+    </form>
+
+    <script>
+        function checkpassword(){
+            let pass = document.getElementById("password").value
+        if(pass === "ABCD"){
+            alert ("password correct")
+            }
+           else{
+            alert("incorrect password");
+            
+           }  
+        }
+       
+    </script>
+</body>
+</html>
